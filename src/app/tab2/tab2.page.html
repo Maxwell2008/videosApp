@@ -7,6 +7,25 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-searchbar color="danger"placeholder="Buscar"></ion-searchbar>
-  <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  <ion-searchbar animated showCancelButton="focus" color="danger"placeholder="Buscar"></ion-searchbar>
+
+  <ion-list>
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ir3cxdjrJJ1r127hCeGneBYe3fS.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+        <h1>Escape Room 2: Tensão Máxima (2021)</h1>
+        <p>26/08/2021 (BR) 1h 28m</p>
+        <p>Terror, Thriller, Mistério</p>
+      </div>
+      </ion-label>
+      <ion-chip color="success" outline>
+        <ion-label>71%</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
+
+
   </ion-content>
