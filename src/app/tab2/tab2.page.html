@@ -10,7 +10,7 @@
   <ion-searchbar animated showCancelButton="focus" color="danger"placeholder="Buscar"></ion-searchbar>
 
   <ion-list>
-<ion-item-sliding>
+    <ion-item-sliding>
     <ion-item lines="full">
       <ion-thumbnail slot="start">
         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ir3cxdjrJJ1r127hCeGneBYe3fS.jpg">
@@ -29,13 +29,13 @@
       </ion-chip>
     </ion-item>
     <ion-item-options side="end">
-      <ion-item-option >
+      <ion-item-option (click)="exibirAlertFavorito()">
         <ion-icon slot="icon-only" name="star"></ion-icon>
       </ion-item-option>
     </ion-item-options>
-  </ion-item-sliding>
+    </ion-item-sliding>
 
-  <ion-item-sliding>
+    <ion-item-sliding>
     <ion-item lines="full">
       <ion-thumbnail slot="start">
         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rKq1Vlw0Bqe2EEvdmIkkkgPQAGf.jpg">
@@ -54,13 +54,13 @@
       </ion-chip>
     </ion-item>
     <ion-item-options side="end">
-      <ion-item-option >
+      <ion-item-option (click)="exibirAlertFavorito()">
         <ion-icon slot="icon-only" name="star"></ion-icon>
       </ion-item-option>
     </ion-item-options>
-  </ion-item-sliding>
+    </ion-item-sliding>
 
-  <ion-item-sliding>
+    <ion-item-sliding>
     <ion-item lines="full">
       <ion-thumbnail slot="start">
         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/olnWkuNwCDHPYTkLKktUnFLyHFg.jpg">
@@ -79,13 +79,14 @@
       </ion-chip>
     </ion-item>
     <ion-item-options side="end">
-      <ion-item-option >
+      <ion-item-option (click)="exibirAlertFavorito()">
         <ion-icon slot="icon-only" name="star"></ion-icon>
       </ion-item-option>
     </ion-item-options>
-  </ion-item-sliding>
+    </ion-item-sliding>
 
   </ion-list>
-  </ion-content>
+</ion-content>
 
 
+io
